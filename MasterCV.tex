@@ -11,17 +11,18 @@
 %----------------------------------------------------------------------------------
 %	This is a small index to jump to each part of the document.
 %	
-%	Index                -- [Ind]
-%	Options				 -- [Opt]
-%	Theme                -- [The]
-%	Personal Data        -- [Prd]
-%	Education            -- [Edu]
-%	Additional Education -- [aEdu]
-%	Experience           -- [Exp]
-%	Languages            -- [Lang]
-%	Computer Skills		 -- [cSki]
-%	Interests		     -- [Int]
-%   Others			     -- [Ski]
+%	Index						-- [Ind]
+%	Options						-- [Opt]
+%	Theme						-- [The]
+%	Personal Data				-- [Prd]
+%	Content						-- [Con]
+%		Education				-- [Edu]
+%		Additional Education	-- [aEdu]
+%		Experience				-- [Exp]
+%		Languages				-- [Lang]
+%		Computer Skills			-- [cSki]
+%		Interests				-- [Int]
+%   	Others					-- [Ski]
 
 %----------------------------------------------------------------------------------
 %   Options 															[Opt]
@@ -79,14 +80,12 @@
 %\homepage{insertlinkedingprofilepage}
 \extrainfo{Skype: sebastiantorrente}
 
-%	Photo:
-%	
-%\photo[64pt][0.4pt]{foto3}                         % '64pt' es la altura a la que la imagen debe ser ajustada, 0.4pt es grosor del marco que lo contiene (eliga 0pt para eliminar el marco) y 'picture' es el nombre del archivo; dato opcional, elimine la linea si no desea el dato
+%	Photo:	
+%\photo[64pt][0.4pt]{foto3} %[photoheight][framewidth]{nameofthephoto.jpg}
 
 %Quotes
 %\quote{"Life is too short to be little"}
-%\quote{"Nobody is safe from the power of Science!"}                       % dato
-% opcional, elimine la linea si no desea el dato
+%\quote{"Nobody is safe from the power of Science!"}
 
 % para mostrar etiquetas numericas en la bibliografia (por omision no se muestran etiquetas), solo es util si desea incluir citas en en CV
 %\makeatletter
@@ -98,18 +97,26 @@
 %\newcites{book,misc}{{Libros},{Otros}}
 
 %----------------------------------------------------------------------------------
-%	Content 															[Content]
+%	Content 																[Con]
 %----------------------------------------------------------------------------------
 \begin{document}
 %\begin{CJK*}{UTF8}{gbsn}                     % para redactar el CV en chino usando CJK
 \maketitle
 
 \section{Education}
-\cventry{2001-2013}{Licenciate Degree in Physics}{University of Murcia}{Murcia}{}{ Equivalent to a BS+MS. Specialization in \textit{'Electronics and automatics'}.}
-%To finish in January 2013.
 
-\section{Additional education} 
-\cventry{2012}{\href{https://6002x.mitx.mit.edu/}{6.002x Circuits and Electronics}}{MITx}{}{}{Took this course to refresh my knowledge in electronics and to test online education. Verification code: \newline{} \url{https://verify.edxonline.org/cert/e9af31ea9ce7435fa021ca908b4bfeac}}
+\cventry{2001-2013}
+{Licenciate Degree in Physics}
+{University of Murcia}
+{Murcia}{}
+{Equivalent to a BS+MS. Specialization in \textit{'Electronics and automatics'}.}
+
+\section{Additional education}
+
+\cventry{2012}{\href{https://6002x.mitx.mit.edu/}
+{6.002x Circuits and Electronics}}
+{MITx}{}{}
+{Took this course to refresh my knowledge in electronics and to test online education. Verification code: \newline{} \url{https://verify.edxonline.org/cert/e9af31ea9ce7435fa021ca908b4bfeac}}
 
 \cventry{2012}{\href{https://6002x.mitx.mit.edu/}{CS169.1x and 2x: Software as a Service}}{MITx}{}{}{Took this course to learn Agile Development techniques. Verification codes: \newline{} \url{https://verify.edx.org/cert/61e969054b3e4edeacb84805c41d4301} and \newline{} \url{https://verify.edx.org/cert/29cf1609f4c540c38f0eea4184ff9670}}
 
