@@ -1,0 +1,215 @@
+%----------------------------------------------------------------------------------
+%   Sebastian Torrente's Master Curriculum Source
+%----------------------------------------------------------------------------------
+%
+%	Given that I should taylor my CV according to each job offer I decided to
+%	create a Master CV source file with absolutely everything I can put and then
+%   comment whatever is not needed in each case. 
+
+%----------------------------------------------------------------------------------
+%   Index																[Ind]
+%----------------------------------------------------------------------------------
+%	This is a small index to jump to each part of the document.
+%	
+%	Index                -- [Ind]
+%	Options				 -- [Opt]
+%	Theme                -- [The]
+%	Personal Data        -- [Prd]
+%	Education            -- [Edu]
+%	Additional Education -- [aEdu]
+%	Experience           -- [Exp]
+%	Languages            -- [Lang]
+%	Computer Skills		 -- [cSki]
+%	Interests		     -- [Int]
+%   Others			     -- [Ski]
+
+%----------------------------------------------------------------------------------
+%   Options 															[Opt]
+%----------------------------------------------------------------------------------
+%   Fontsize: ('10pt', '11pt' and '12pt')
+%   Papersize: ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper',
+%		'landscape')
+%   Type of font: ('sans' y 'roman')
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+%----------------------------------------------------------------------------------
+%   Theme 																[The]
+%----------------------------------------------------------------------------------
+
+%	Options ('casual' (default),'classic', 'oldstyle', 'banking')
+\moderncvstyle{casual} 
+
+%	Colors ('blue' (default), 'orange', 'green', 'red', 'purple', 'grey' y 'black')
+\moderncvcolor{black}
+
+%	Fonts:
+% \sdefault:  sans serif font
+% \rmdefault: roman font
+\renewcommand{\familydefault}{\rmdefault}
+
+%	Number the pages?
+\nopagenumbers{}                             
+
+%	Codification:
+%\usepackage[utf8]{inputenc}
+%\usepackage{CJKutf8} 				%Just in case I need asian languages.
+
+%	Margins:
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}           % Dates column's width
+
+%----------------------------------------------------------------------------------
+%            Personal Data 												[Perdat]
+%----------------------------------------------------------------------------------
+
+\firstname{Sebasti\'an}
+\familyname{Torrente Carrillo}
+
+\title{Physics MS}
+
+\address{Calle Jer\'onimo Santa Fe, 102, 2B}{30800 Lorca, (Murcia)}
+
+%	Contact:
+\mobile{(+34)~629~787~950}                            
+%\phone{+2~(345)~678~901}                            
+%\fax{+3~(456)~789~012}
+
+\email{sebastian.torrente@gmail.com}
+\homepage{infrafrequency.tumblr.com}
+%\homepage{insertlinkedingprofilepage}
+\extrainfo{Skype: sebastiantorrente}
+
+%	Photo:
+%	
+%\photo[64pt][0.4pt]{foto3}                         % '64pt' es la altura a la que la imagen debe ser ajustada, 0.4pt es grosor del marco que lo contiene (eliga 0pt para eliminar el marco) y 'picture' es el nombre del archivo; dato opcional, elimine la linea si no desea el dato
+
+%Quotes
+%\quote{"Life is too short to be little"}
+%\quote{"Nobody is safe from the power of Science!"}                       % dato
+% opcional, elimine la linea si no desea el dato
+
+% para mostrar etiquetas numericas en la bibliografia (por omision no se muestran etiquetas), solo es util si desea incluir citas en en CV
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+% bibliografia con varias fuentes
+%\usepackage{multibib}
+%\newcites{book,misc}{{Libros},{Otros}}
+
+%----------------------------------------------------------------------------------
+%	Content 															[Content]
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                     % para redactar el CV en chino usando CJK
+\maketitle
+
+\section{Education}
+\cventry{2001-2013}{Licenciate Degree in Physics}{University of Murcia}{Murcia}{}{ Equivalent to a BS+MS. Specialization in \textit{'Electronics and automatics'}.}
+%To finish in January 2013.
+
+\section{Additional education} 
+\cventry{2012}{\href{https://6002x.mitx.mit.edu/}{6.002x Circuits and Electronics}}{MITx}{}{}{Took this course to refresh my knowledge in electronics and to test online education. Verification code: \newline{} \url{https://verify.edxonline.org/cert/e9af31ea9ce7435fa021ca908b4bfeac}}
+
+\cventry{2012}{\href{https://6002x.mitx.mit.edu/}{CS169.1x and 2x: Software as a Service}}{MITx}{}{}{Took this course to learn Agile Development techniques. Verification codes: \newline{} \url{https://verify.edx.org/cert/61e969054b3e4edeacb84805c41d4301} and \newline{} \url{https://verify.edx.org/cert/29cf1609f4c540c38f0eea4184ff9670}}
+
+%\cventry{2010}{Astroparticles: ¿De que esta hecho el universo?}{Universidad de Alcala}{Sigüenza}{}{Summer Course}
+
+\cventry{2008}{\href{http://biplot.usal.es/verano/analisis-estadistico-de-dat.html}{Statistical Analysis of Data with SPSS}}{University of Salamanca}{Salamanca}{}{Summer Course}
+
+\cventry{2008}{\href{http://mat.uab.cat/~oalgebras/}{Schools of Mathematics Lluis Santal\'o. Aspect of operator algebras and applications}}{International University Men\'endez Pelayo}{Santander}{}{Summer Course}
+
+\cventry{2007}{\href{http://cursosdeverano.unican.es/cursos-anteriores/Paginas/Detalle-curso.aspx?p_id=1094}{Artificial Vision}}{University of Cantabria}{Santander}{}{Summer Course}
+
+\cventry{2007}{Quantum computation and topological orders}{Complutense University of Madrid}{San Lorenzo del Escorial}{}{Summer Course}
+
+%\cventry{2006}{Hidrogen and fuel batteries: energy base for the XXI century}{UNED}{El Barco de avila}{}{Summer Course}
+
+\cventry{2006}{\href{http://portal.uned.es/portal/page?_pageid=93,22547880&_dad=portal&_schema=PORTAL&idCurso=042}{Process Control: Applications in MATLAB-SIMULINK}
+}{UNED}{\'Avila}{}{Summer Course}
+
+\cventry{1992-2001}{Bachelor of Music}{Conservatory of Lorca}{Lorca}{}{Violin}
+
+% Los argumentos del 3 al 6 pueden permanecer vacios
+%\cventry{a\~no--a\~no}{Grado}{Institucion}{Ciudad}{\textit{Grade}}{Descripcion}
+
+%\section{Tesis de maestria}
+%\cvitem{titulo}{\emph{Titulo}}
+%\cvitem{sinodares}{Sinodales}
+%\cvitem{descripcion}{Una breve descripcion de la tesis}
+
+\section{Experience}
+%\subsection{Vocational}
+%\cventry{2009--2010}{Collaboration in the FISPAC stand in the Murcia's Science Fair 2012}{FISPAC}{Murcia}{}{Design of posters and other material for the stand, speechs realizaci\'on de charlas y exposiciones y mantenimiento y ensamblaje del stand.\newline{}}
+
+\cventry{2006--Present}{Freelance Card Game Designer}{Edge Entertainment}{}{}{Co-creator and Main Designer of a card game of future release.\newline{}%
+Achievements:%
+\begin{itemize}%
+\item Won a national board game design award, been in charge of the project ever since;
+\item Learnt how to manage a project: from the initial idea to the finished product.
+\end{itemize}}
+
+%\cventry{2006--Present}{Freelance Card Game Designer}{Edge Entertainment}{}{}{Co-creator and Main Designer of a card game of future release.\newline{}}
+
+\cventry{2011--2012}{Editing and typesetting}{\href{http://www.um.es/fispac/}{FISPAC}}{Murcia}{}{Edition, typesseting and correction in \LaTeX{} of the book \textit{'Progress on particle and nuclear physics'} (provisional title)\newline{}}
+
+
+\section{Languages}
+\cvitemwithcomment{Spanish}{Native}{}
+\cvitemwithcomment{English}{Fluent spoken and written}{\href{https://dl.dropbox.com/u/87894135/StatementOfResult.pdf}{CEFR Level C2, ESOL Cambridge CAE Grade A}}
+\cvitemwithcomment{French}{Basic}{Learnt during high school, I want to pick it up again.}
+%\cvitemwithcomment{Idioma 3}{nivel}{Comentario}
+
+\section{Computer Skills}
+\cvitemwithcomment{Python}{Numpy, IPython}{Prefered language}
+\cvitemwithcomment{\LaTeX}{MikTex and Texmaker}{Main choice for typesetting}
+\cvitemwithcomment{Fortran}{FORTRAN77}{Used in computational physics, switching to Numpy}
+\cvitemwithcomment{MATLAB}{Octave}{}
+\cvitemwithcomment{Other}{C, R}{}
+%\cvitemwithcomment{Learning}{Ruby, Rails, Django}{}
+\cvitemwithcomment{Tools}{Git (\href{https://github.com/SebastianTorrente/}{Github})}{\href{https://github.com/SebastianTorrente/}{https://github.com/SebastianTorrente/}}
+
+
+\section{Interests}
+\cvitem{Electronics}{Design, assembly and soldering of small electronics devices. Last project: an arcade stick with detachable cable and compatible with various systems.}
+\cvitem{Learning}{Acquiring new skills. Currently learning Ruby, SML and TkInter. Once I settle down I plan to learn German, French and some martial art as phisical activity}
+\cvitem{Game design}{Mainly card and boardgames. As stated above, I won a contest in card game design.}
+\cvitem{Hobbies}{Taking online and summer courses, traveling, cooking, taking long walks, science fiction and martial arts cinema, model kits, comics and fighting games.}
+%\cvitem{hobby 3}{Descripcion}
+
+\section{Others}
+\cvitem{Lateral Thinker}{Crazy ideas may not be the correct ones all the time, but they are always interesting and worth exploring.}
+\cvitem{Problem solving skills}{With a good dose of "let's fix it" attitude and very passionate. Doubly so if I have to learn new skills to tackle the problem. I'd like to insist about it: I really love to learn new skills, even if they don't seem practical at first.}
+\cvitem{Team worker}{Silver tongue with great exposition skills. Supportive to others, happy to share and support ideas and fun to have around.}
+\cvitem{Curious and polymorphic}{I just can't resist the temptation of trying my hand at tasks I've never done before and figuring out how things work.}
+\cvitem{Perseverant}{Even in the direst circumstances I still push on.}
+\cvitem{Other}{Driving license.}
+%\cvlistitem{Driving license.}
+
+\renewcommand{\listitemsymbol}{-~}            % para cambiar el simbolo para las listas
+
+%\section{Extra 2}
+%\cvlistdoubleitem{Tema 1}{Tema 4}
+%\cvlistdoubleitem{Tema 2}{Tema 5\cite{book1}}
+%\cvlistdoubleitem{Tema 3}{}
+
+% Las publicaciones tomadas de un archivo de BibTeX sin usar multibib\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+
+%\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{publications}                   % 'publications' es el nombre del archivo BibTeX
+
+% Las publicaciones tomadas de un archivo BibTeX usando el paquete multibib
+%\section{Publicaciones}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}              % 'publications' es el nombre del archivo BibTeX
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}              % 'publications' es el nombre del archivo BibTeX
+
+%\clearpage\end{CJK*}                          % si esta redactando su CV en chino usando CJK, \clearpage es requerido por fancyhdr para que funcione correctamente con CJK, aunque esto eliminara la numeracion de pagina al dejar \lastpage como no definido
+\end{document}
+
+
+%% fin del archivo `template-es.tex'.
