@@ -1,14 +1,14 @@
-%----------------------------------------------------------------------------------
-%   Sebastian Torrente's Master Curriculum Source
-%----------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------%
+%   Sebastian Torrente's Master Curriculum Source								   %
+%----------------------------------------------------------------------------------%
 %
 %	Given that I should taylor my CV according to each job offer I decided to
 %	create a Master CV source file with absolutely everything I can put and then
 %   comment whatever is not needed in each case. 
-
-%----------------------------------------------------------------------------------
-%   Index																[Ind]
-%----------------------------------------------------------------------------------
+%
+%----------------------------------------------------------------------------------%
+%   Index																	[Ind]  %
+%----------------------------------------------------------------------------------%
 %	This is a small index to jump to each part of the document.
 %	
 %	Index						-- [Ind]
@@ -20,22 +20,22 @@
 %		Additional Education	-- [aEdu]
 %		Experience				-- [Exp]
 %		Languages				-- [Lang]
-%		Computer Skills			-- [cSki]
+%		Computer Skills			-- [Com]
 %		Interests				-- [Int]
-%   	Others					-- [Ski]
-
-%----------------------------------------------------------------------------------
-%   Options 															[Opt]
-%----------------------------------------------------------------------------------
+%   	Personal Skills			-- [Per]
+%
+%----------------------------------------------------------------------------------%
+%   Options 																[Opt]  %
+%----------------------------------------------------------------------------------%
 %   Fontsize: ('10pt', '11pt' and '12pt')
 %   Papersize: ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper',
 %		'landscape')
 %   Type of font: ('sans' y 'roman')
-\documentclass[11pt,a4paper,sans]{moderncv}
+\documentclass[11pt,a4paper,roman]{moderncv}
 
-%----------------------------------------------------------------------------------
-%   Theme 																[The]
-%----------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------%
+%   Theme 																	[The]  %
+%----------------------------------------------------------------------------------%
 
 %	Options ('casual' (default),'classic', 'oldstyle', 'banking')
 \moderncvstyle{casual} 
@@ -47,6 +47,7 @@
 % \sdefault:  sans serif font
 % \rmdefault: roman font
 \renewcommand{\familydefault}{\rmdefault}
+%\renewcommand{\familydefault}{\sdefault}
 
 %	Number the pages?
 \nopagenumbers{}                             
@@ -56,12 +57,12 @@
 %\usepackage{CJKutf8} 				%Just in case I need asian languages.
 
 %	Margins:
-\usepackage[scale=0.75]{geometry}
-%\setlength{\hintscolumnwidth}{3cm}           % Dates column's width
+\usepackage[scale=0.75]{geometry}			   % Margins. Recommended 0.75.
+\setlength{\hintscolumnwidth}{2.3cm}           % Dates column's width
 
-%----------------------------------------------------------------------------------
-%            Personal Data 												[Perdat]
-%----------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------%
+%            Personal Data 													[Prd]  %
+%----------------------------------------------------------------------------------%
 
 \firstname{Sebasti\'an}
 \familyname{Torrente Carrillo}
@@ -71,13 +72,13 @@
 \address{Calle Jer\'onimo Santa Fe, 102, 2B}{30800 Lorca, (Murcia)}
 
 %	Contact:
-\mobile{(+34)~629~787~950}                            
-%\phone{+2~(345)~678~901}                            
-%\fax{+3~(456)~789~012}
+\mobile{(+34)~629~787~950}					%Spanish mobile phone                            
+%\phone{+2~(345)~678~901}					%Placeholder for future british phone                            
+%\fax{+3~(456)~789~012}						%Don't think I'll need it, but hey.
 
 \email{sebastian.torrente@gmail.com}
-\homepage{infrafrequency.tumblr.com}
-%\homepage{insertlinkedingprofilepage}
+%\homepage{infrafrequency.tumblr.com}
+\homepage{es.linkedin.com/in/sebastiantorrentecarrillo}
 \extrainfo{Skype: sebastiantorrente}
 
 %	Photo:	
@@ -96,42 +97,50 @@
 %\usepackage{multibib}
 %\newcites{book,misc}{{Libros},{Otros}}
 
-%----------------------------------------------------------------------------------
-%	Content 																[Con]
-%----------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------%
+%	Content 																[Con]  %
+%----------------------------------------------------------------------------------%
 \begin{document}
-%\begin{CJK*}{UTF8}{gbsn}                     % para redactar el CV en chino usando CJK
+%\begin{CJK*}{UTF8}{gbsn}                     %For CV in Chinese
 \maketitle
 
+
+%----------------------------------------------------------------------------------%
+%	Education 																[Edu]  %
+%----------------------------------------------------------------------------------%
 \section{Education}
 
 \cventry{2001-2013}
 {Licenciate Degree in Physics}
 {University of Murcia}
 {Murcia}{}
-{Equivalent to a BS+MS. Specialization in \textit{'Electronics and automatics'}.}
+{Equivalent to a BS+MS. Specialization in \textit{'Electronics and automatics'}. I also developed an interest in computational physics and astrophysics.}
+
+%----------------------------------------------------------------------------------%
+%	Additional Education													[aEdu] %
+%----------------------------------------------------------------------------------%
 
 \section{Additional education}
 
-\cventry{2012}	{\href{https://6002x.mitx.mit.edu/}
+\cventry{2012}{\href{https://6002x.mitx.mit.edu/}
 {6.002x Circuits and Electronics}}
 {MITx}{}{}
-{Took this course to refresh my knowledge in electronics and to test online education. Verification code: \newline{} \url{https://verify.edxonline.org/cert/e9af31ea9ce7435fa021ca908b4bfeac}}
+{Took this course to refresh my knowledge in electronics and to test online education.} %Verification code: \newline{} \url{https://verify.edxonline.org/cert/e9af31ea9ce7435fa021ca908b4bfeac}}
 
 \cventry{2012}
-{\href{https://6002x.mitx.mit.edu/}{CS169.1x and 2x: Software as a Service}}
+{\href{https://www.edx.org/courses/BerkeleyX/CS169.1x/2013_Spring/about}{CS169.1x and 2x: Software as a Service}}
 {Edx}{}{}
-{Took this course to learn Agile Development techniques. 
-Verification codes: \newline{} \url{https://verify.edx.org/cert/61e969054b3e4edeacb84805c41d4301} and \newline{} \url{https://verify.edx.org/cert/29cf1609f4c540c38f0eea4184ff9670}}
+{Took those two to learn Agile Development techniques, Ruby and Rails.} 
+%Verification codes: \newline{} \url{https://verify.edx.org/cert/61e969054b3e4edeacb84805c41d4301} and \newline{} \url{https://verify.edx.org/cert/29cf1609f4c540c38f0eea4184ff9670}}
 
 \cventry{2012}
 {\href{https://6002x.mitx.mit.edu/}{CS188.1x: Artificial Intelligence}}
 {Edx}{}{}
-{Picked this one to practice with Python. 
-Verification codes: \newline{} \url{https://verify.edx.org/cert/2907f427165e4e3d85036db258752aab}}
+{Picked this one to practice with Python.} 
+%Verification codes: \newline{} \url{https://verify.edx.org/cert/2907f427165e4e3d85036db258752aab}}
 
-%\cventry{2010}
 %{Astroparticles: ¿De que esta hecho el universo?}
+%\cventry{2010}
 %{Universidad de Alcala}
 %{Sigüenza}{}
 %{Summer Course, 25 hours.}
@@ -150,11 +159,11 @@ Verification codes: \newline{} \url{https://verify.edx.org/cert/2907f427165e4e3d
 {}
 {Summer Course, 30 hours.}
 
-\cventry{2007}{\href{http://cursosdeverano.unican.es/cursos-anteriores/Paginas/Detalle-curso.aspx?p_id=1094}
-{Artificial Vision}}
-{University of Cantabria}
-{Santander}{}
-{Summer Course, 20 hours.}
+%\cventry{2007}{\href{http://cursosdeverano.unican.es/cursos-anteriores/Paginas/Detalle-curso.aspx?p_id=1094}
+%{Artificial Vision}}
+%{University of Cantabria}
+%{Santander}{}
+%{Summer Course, 20 hours.}
 
 \cventry{2007}
 {Quantum computation and topological orders}
@@ -187,52 +196,102 @@ Verification codes: \newline{} \url{https://verify.edx.org/cert/2907f427165e4e3d
 %\cvitem{sinodares}{Sinodales}
 %\cvitem{descripcion}{Una breve descripcion de la tesis}
 
+%----------------------------------------------------------------------------------%
+%	Experience																[Exp]  %
+%----------------------------------------------------------------------------------%
+
 \section{Experience}
 %\subsection{Vocational}
-%\cventry{September 2010}{Collaboration in the FISPAC stand in the Murcia's Science Fair 2012}{FISPAC}{Murcia}{}{Design of posters and other material for the stand, speechs realizaci\'on de charlas y exposiciones y mantenimiento y ensamblaje del stand.\newline{}}
 
 \cventry{2006--Present}
 {Freelance Card Game Designer}
 {Edge Entertainment}{}{}
-{Co-creator and Main Designer of a card game of future release.\newline{}%
-Achievements:%
-\begin{itemize}%
-\item Won a national board game design award, been in charge of the project ever since;
+{Co-creator and Main Designer of a card game of future release.\newline{}
+Achievements:
+\begin{itemize}
+\item Won the board game design contest with the game 'Crisis: Tokyo'.
 \item Learnt how to manage a project: from the initial idea to the finished product.
 \end{itemize}}
 
-%\cventry{2006--Present}{Freelance Card Game Designer}{Edge Entertainment}{}{}{Co-creator and Main Designer of a card game of future release.\newline{}}
+\cventry{2011--2012}
+{Editing and typesetting}
+{\href{http://www.um.es/fispac/}{FISPAC}}
+{Murcia}
+{}
+{Edition, typesetting and correction in \LaTeX{} of the book \textit{'Progress on particle and nuclear physics'} (provisional title)\newline{}}
 
-\cventry{2011--2012}{Editing and typesetting}{\href{http://www.um.es/fispac/}{FISPAC}}{Murcia}{}{Edition, typesseting and correction in \LaTeX{} of the book \textit{'Progress on particle and nuclear physics'} (provisional title)\newline{}}
+\cventry{September 2010}
+{Collaboration in the FISPAC stand in the Murcia's Science Fair 2010}
+{FISPAC}
+{Murcia}
+{}
+{Design of posters and other material for the stand. Gave speechs about\newline{}}
 
+%----------------------------------------------------------------------------------%
+%	Languages																[Lan]  %
+%----------------------------------------------------------------------------------%
+
+%	Example liine:
+%\cvitemwithcomment{Idioma 3}{nivel}{Comentario}
 
 \section{Languages}
 \cvitemwithcomment{Spanish}
-{Native}{Great level with a rich vocabulary even for a native.}
+{Native}
+{Great level with a rich vocabulary even for a native.}
 
 \cvitemwithcomment{English}
 {Fluent spoken and written}
-{\href{https://dl.dropbox.com/u/87894135/StatementOfResult.pdf}{CEFR Level C2, ESOL Cambridge CAE Grade A}}
-\cvitemwithcomment{French}{Basic}{Learnt during high school, I want to pick it up again.}
-%\cvitemwithcomment{Idioma 3}{nivel}{Comentario}
+{\href{https://dl.dropbox.com/u/87894135/StatementOfResult.pdf}
+{CEFR Level C2, ESOL Cambridge CAE Grade A}}
+
+\cvitemwithcomment{French}
+{Basic}
+{Learnt during high school, I want to pick it up again.}
+
+%----------------------------------------------------------------------------------%
+%	Computer Skills															[Com]  %
+%----------------------------------------------------------------------------------%
 
 \section{Computer Skills}
-\cvitemwithcomment{Python}{Numpy, IPython}{Prefered language}
-\cvitemwithcomment{\LaTeX}{MikTex and Texmaker}{Main choice for typesetting}
-\cvitemwithcomment{Fortran}{FORTRAN77}{Used in computational physics, switching to Numpy}
-\cvitemwithcomment{MATLAB}{Octave}{}
-\cvitemwithcomment{Other}{C, R}{}
-%\cvitemwithcomment{Learning}{Ruby, Rails, Django}{}
-\cvitemwithcomment{Tools}{Git (\href{https://github.com/SebastianTorrente/}{Github})}{\href{https://github.com/SebastianTorrente/}{https://github.com/SebastianTorrente/}}
 
+\cvitemwithcomment{Python}
+	{Numpy, IPython}
+	{Prefered language}
+
+\cvitemwithcomment{\LaTeX}
+	{MikTex and Texmaker}
+	{Main choice for typesetting}
+
+\cvitemwithcomment{Fortran}
+	{FORTRAN77}
+	{Used in computational physics, switching to Numpy}
+
+\cvitemwithcomment{MATLAB}
+	{Octave}
+	{}
+
+\cvitemwithcomment{Other}
+	{C, R}
+	{}
+
+%\cvitemwithcomment{Learning}{Ruby, Rails, Django}{}
+
+\cvitemwithcomment{Tools}
+{Git (\href{https://github.com/SebastianTorrente/}{Github})}
+{\href{https://github.com/SebastianTorrente/}{https://github.com/SebastianTorrente/}}
+
+%----------------------------------------------------------------------------------%
+%	Interests																[Int]  %
+%----------------------------------------------------------------------------------%
 
 \section{Interests}
+
 \cvitem{Electronics}
 	{Design, assembly and soldering of small electronics devices. Last project: an arcade stick with detachable cable and compatible with various systems.}
 
 \cvitem{Learning}
 	{Acquiring new skills. Currently learning Ruby, SML and TkInter.
-	Once I settle down I plan to learn German, French and some martial art as phisical activity}
+	Once I settle down I plan to learn German, French and some martial art as physical activity}
 
 \cvitem{Game design}
 	{Mainly card and boardgames. As stated above, I won a contest in card game design.}
@@ -242,14 +301,31 @@ Achievements:%
 
 %\cvitem{hobby 3}{Descripcion}
 
-\section{Others}
-\cvitem{Lateral Thinker}{Crazy ideas may not be the correct ones all the time, but they are always interesting and worth exploring.}
-\cvitem{Problem solving skills}{With a good dose of "let's fix it" attitude and very passionate. Doubly so if I have to learn new skills to tackle the problem. I'd like to insist about it: I really love to learn new skills, even if they don't seem practical at first.}
-\cvitem{Team worker}{Silver tongue with great exposition skills. Supportive to others, happy to share and support ideas and fun to have around.}
-\cvitem{Curious and polymorphic}{I just can't resist the temptation of trying my hand at tasks I've never done before and figuring out how things work.}
-\cvitem{Perseverant}{Even in the direst circumstances I still push on.}
-\cvitem{Other}{Driving license.}
-%\cvlistitem{Driving license.}
+%----------------------------------------------------------------------------------%
+%	Personal Skills															[Per]  %
+%----------------------------------------------------------------------------------%
+
+\section{Personal Skills}
+
+\cvitem{Lateral Thinker}
+{Crazy ideas may not be the correct ones all the time, but they are always interesting and worth exploring.}
+
+\cvitem{Problem solving skills}
+{With a good dose of a "let's fix it" attitude and very passionate. Doubly so if I have to learn new skills to tackle the problem. I'd like to insist about it: I really love to learn new skills, even if they don't seem practical at first.}
+
+\cvitem{Team worker}
+{Silver tongue with great exposition skills. Supportive to others, happy to share and support ideas and fun to have around.}
+
+\cvitem{Curious and polymorphic}
+{I just can't resist the temptation of trying my hand at tasks I've never done before and figuring out how things work.}
+
+\cvitem{Perseverant}
+{Even in the direst circumstances I still push on.}
+
+\cvitem{Other}
+{Driving license.}
+
+%------------------------------------------------------------------------
 
 \renewcommand{\listitemsymbol}{-~}            % para cambiar el simbolo para las listas
 
