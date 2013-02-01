@@ -1,0 +1,223 @@
+%----------------------------------------------------------------------------------%
+%   Sebastian Torrente's Master Curriculum Source Addendum III: Skills			   %
+%----------------------------------------------------------------------------------%
+%
+%	In this subcurriculum you can read with more detail about all the courses I've 
+%   made, along with the things I've learnt in them. 	
+% 
+%----------------------------------------------------------------------------------%
+%
+%	Based on the template by Xavier Danaux (xdanaux@gmail.com) and using the 
+%	moderncv package. Copyright 2006-2012
+%
+% 	This work may be distributed and/or modified under the
+% 	conditions of the LaTeX Project Public License version 1.3c,
+% 	available at http://www.latex-project.org/lppl/.
+%
+%----------------------------------------------------------------------------------%
+%
+%----------------------------------------------------------------------------------%
+%   Index																	[Ind]  %
+%----------------------------------------------------------------------------------%
+%	This is a small index to jump to each part of the document.
+%	
+%	Index						-- [Ind]
+%	Options						-- [Opt]
+%	Theme						-- [The]
+%	Personal Data				-- [Prd]
+%	Content						-- [Con]
+%		Languages				-- [Lan]
+%		Computer Skills			-- [Com]
+%		Interests				-- [Int]
+%   	Personal Skills			-- [Per]
+%
+%----------------------------------------------------------------------------------%
+%   Options 																[Opt]  %
+%----------------------------------------------------------------------------------%
+%   Fontsize: ('10pt', '11pt' and '12pt')
+%   Papersize: ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper',
+%		'landscape')
+%   Type of font: ('sans' y 'roman')
+\documentclass[11pt,a4paper,roman]{moderncv}
+
+%----------------------------------------------------------------------------------%
+%   Theme 																	[The]  %
+%----------------------------------------------------------------------------------%
+
+%	Options ('casual' (default),'classic', 'oldstyle', 'banking')
+\moderncvstyle{casual} 
+
+%	Colors ('blue' (default), 'orange', 'green', 'red', 'purple', 'grey' y 'black')
+\moderncvcolor{black}
+
+%	Fonts:
+% \sdefault:  sans serif font
+% \rmdefault: roman font
+\renewcommand{\familydefault}{\rmdefault}
+%\renewcommand{\familydefault}{\sdefault}
+
+%	Number the pages?
+\nopagenumbers{}                             
+
+%	Codification:
+%\usepackage[utf8]{inputenc}
+%\usepackage{CJKutf8} 				%Just in case I need asian languages.
+
+%	Margins:
+\usepackage[scale=0.75]{geometry}			   % Margins. Recommended 0.75.
+\setlength{\hintscolumnwidth}{2.3cm}           % Dates column's width
+
+%----------------------------------------------------------------------------------%
+%            Personal Data 													[Prd]  %
+%----------------------------------------------------------------------------------%
+
+\firstname{Sebasti\'an}
+\familyname{Torrente Carrillo}
+
+\title{Addendum III: Skills}
+
+%\address{Calle Jer\'onimo Santa Fe, 102, 2B}{30800 Lorca, (Murcia)}
+
+%	Contact:
+
+\mobile{(+34)~629~787~950}						%Spanish mobile phone                            
+%\phone{+34~(968)~463~074}						%Placeholder for future british phone                            
+%\fax{+34~(567)~890~123}						%Don't think I'll need it, but hey.
+
+\email{sebastian.torrente@gmail.com}
+%\homepage{infrafrequency.tumblr.com}
+\homepage{es.linkedin.com/in/sebastiantorrentecarrillo}
+\extrainfo{Skype: sebastiantorrente}
+
+%	Photo:	
+%\photo[64pt][0.4pt]{foto3} 		%[photoheight][framewidth]{nameofthephoto.jpg}
+
+%Quotes
+	%\quote{"Life is too short to be little"}
+	%\quote{"Nobody is safe from the power of Science!"}
+
+%----------------------------------------------------------------------------------%
+%	Content 																[Con]  %
+%----------------------------------------------------------------------------------%
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                     %For CV in Chinese
+\maketitle
+
+
+%----------------------------------------------------------------------------------%
+%	Profile																	[Pro]  %
+%----------------------------------------------------------------------------------%
+
+%\section{Profile}
+%\cvitem{}{
+%With a population of almost 460,000, Manchester is the UK's third largest city yet widely regarded as Britain 's second city and arguably the most exciting, cultural and forward-thinking. The decline of manufacturing and heavy industry in the 1980s and the subsequent dramatic rise in unemployment, provided a powerful catalyst for the city to regenerate itself and seek a new direction. And the main engine for this came in the wake of the IRA bomb attack in 1996.
+%}
+
+%----------------------------------------------------------------------------------%
+%	Languages																[Lan]  %
+%----------------------------------------------------------------------------------%
+
+%	Example liine:
+%\cvitemwithcomment{Idioma 3}{nivel}{Comentario}
+
+\section{Languages}
+\cvitemwithcomment{Spanish}
+	{Native}
+	{Great level with a rich vocabulary even for a native.}
+
+\cvitemwithcomment{English}
+	{Fluent spoken and written}
+	{\href{https://dl.dropbox.com/u/87894135/StatementOfResult.pdf}
+	{CEFR Level C2, ESOL Cambridge CAE Grade A}}
+
+\cvitemwithcomment{French}
+	{Basic}
+	{Learnt during high school, I want to pick it up again.}
+
+%----------------------------------------------------------------------------------%
+%	Computer Skills															[Com]  %
+%----------------------------------------------------------------------------------%
+
+\section{Computer Skills}
+
+\cvitemwithcomment{Python}
+	{Numpy, IPython}
+	{Prefered language}
+
+\cvitemwithcomment{\LaTeX}
+	{MikTex and Texmaker}
+	{Main choice for typesetting}
+
+\cvitemwithcomment{Fortran}
+	{FORTRAN77}
+	{Used in computational physics, switching to Numpy}
+
+\cvitemwithcomment{MATLAB}
+	{Octave}
+	{}
+
+\cvitemwithcomment{Other}
+	{C, R}
+	{}
+
+%\cvitemwithcomment{Learning}{Ruby, Rails, Django}{}
+
+\cvitemwithcomment{Tools}
+	{Git (\href{https://github.com/SebastianTorrente/}
+	{Github})}
+	{\href{https://github.com/SebastianTorrente/}
+	{https://github.com/SebastianTorrente/}}
+
+%----------------------------------------------------------------------------------%
+%	Interests																[Int]  %
+%----------------------------------------------------------------------------------%
+
+\section{Interests}
+
+\cvitem{Electronics}
+	{Design, assembly and soldering of small electronics devices. Last project: an arcade stick with detachable cable and compatible with various systems.}
+
+\cvitem{Learning}
+	{Acquiring new skills. Currently learning Ruby, SML and TkInter.
+	Once I settle down I plan to learn German, French and some martial art as physical activity}
+
+\cvitem{Game design}
+	{Mainly card and boardgames. As stated above, I won a contest in card game design.}
+
+\cvitem{Hobbies}
+	{Taking online and summer courses, traveling, cooking, taking long walks, science fiction and martial arts cinema, model kits, comics and fighting games.}
+
+%\cvitem{hobby 3}{Descripcion}
+
+%----------------------------------------------------------------------------------%
+%	Personal Skills															[Per]  %
+%----------------------------------------------------------------------------------%
+
+\section{Personal Skills}
+
+\cvitem{Lateral Thinker}
+{Crazy ideas may not be the correct ones all the time, but they are always interesting and worth exploring.}
+
+\cvitem{Problem solving skills}
+{With a good dose of a "let's fix it" attitude and very passionate. Doubly so if I have to learn new skills to tackle the problem. I'd like to insist about it: I really love to learn new skills, even if they don't seem practical at first.}
+
+\cvitem{Team worker}
+{Silver tongue with great exposition skills. Supportive to others, happy to share and support ideas and fun to have around.}
+
+\cvitem{Curious and polymorphic}
+{I just can't resist the temptation of trying my hand at tasks I've never done before and figuring out how things work.}
+
+\cvitem{Perseverant}
+{Even in the direst circumstances I still push on.}
+
+\cvitem{Other}
+{Driving license.}
+
+%-------------------------------------------------------------------------------------
+
+\renewcommand{\listitemsymbol}{-~}            %Change the symbol in lists
+
+\end{document}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
