@@ -1,0 +1,334 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.7.27)  8 FEB 2013 10:49
+entering extended mode
+**firstdraft.tex
+
+("C:\Users\Sebastián Torrente\Desktop\Work\cv\MasterCV\letters_references\cove
+rletters\firstdraft.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrlttr2.cls"
+Document Class: scrlttr2 2012/07/29 v3.11b KOMA-Script document class (letter)
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrkbase.sty"
+Package: scrkbase 2012/07/29 v3.11b KOMA-Script package (KOMA-Script-dependent 
+basics and keyval usage)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty"
+Package: scrbase 2012/07/29 v3.11b KOMA-Script package (KOMA-Script-independent
+ basics and keyval usage)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty"
+Package: scrlfile 2012/06/15 v3.12 KOMA-Script package (loading files)
+
+Package scrlfile, 2012/06/15 v3.12 KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+)))
+Class scrlttr2 Info: File `scrsize12pt.clo' used instead of
+(scrlttr2)           file `scrsize12.clo' to setup font sizes on input line 117
+4.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrsize12pt.clo"
+File: scrsize12pt.clo 2012/07/29 v3.11b KOMA-Script font size class option (12p
+t)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\typearea.sty"
+Package: typearea 2012/07/29 v3.11b KOMA-Script package (type area)
+
+Package typearea, 2012/07/29 v3.11b KOMA-Script package (type area)
+                  Copyright (C) Frank Neukam, 1992-1994
+                  Copyright (C) Markus Kohm, 1994-
+
+\ta@bcor=\skip41
+\ta@div=\count79
+\ta@hblk=\skip42
+\ta@vblk=\skip43
+\ta@temp=\skip44
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 12
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 448.13095pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 2.4185pt
+(typearea)              \oddsidemargin  = 2.4185pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 635.5pt
+(typearea)              \topmargin      = -41.72441pt
+(typearea)              \headheight     = 18.125pt
+(typearea)              \headsep        = 21.75pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 50.75pt
+(typearea)              \baselineskip   = 14.5pt
+(typearea)              on input line 1213.
+))
+Class scrlttr2 Info: Letter-Class-Option `DIN' loaded on input line 2.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\DIN.lco"
+File: DIN.lco 2012/07/29 v3.11b KOMA-Script letter-class-option
+)
+! Undefined control sequence.
+l.3 \signature
+              {Sebastian Emilio Torrente Carrillo}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \signature{S
+                ebastian Emilio Torrente Carrillo}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.5 \address
+            {Perez Casas, 102, 2ºB \\ 30800 Lorca \\ Spain}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 \address{P
+              erez Casas, 102, 2ºB \\ 30800 Lorca \\ Spain}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+
+("C:\Users\Sebastián Torrente\Desktop\Work\cv\MasterCV\letters_references\cove
+rletters\firstdraft.aux"
+! Undefined control sequence.
+l.2 \@mlabel
+            {}{\unhbox \voidb@x \ignorespaces Company name \\ Street\\ City\...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \@mlabel{}{\unhbox
+                       \voidb@x \ignorespaces Company name \\ Street\\ City\...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+Package scrbase Info: No captions found for `USenglish'
+(scrbase)             --> skipped on input line 7.
+Class scrlttr2 Info: no date found for language `USenglish'
+(scrlttr2)           --> skipped on input line 7.
+Package scrbase Info: No captions found for `american'
+(scrbase)             --> skipped on input line 7.
+Class scrlttr2 Info: no date found for language `american'
+(scrlttr2)           --> skipped on input line 7.
+Package scrbase Info: No captions found for `british'
+(scrbase)             --> skipped on input line 7.
+Class scrlttr2 Info: no date found for language `british'
+(scrlttr2)           --> skipped on input line 7.
+Package scrbase Info: No captions found for `UKenglish'
+(scrbase)             --> skipped on input line 7.
+Class scrlttr2 Info: no date found for language `UKenglish'
+(scrlttr2)           --> skipped on input line 7.
+Package scrbase Info: No captions found for `german'
+(scrbase)             --> skipped on input line 7.
+Class scrlttr2 Info: no date found for language `german'
+(scrlttr2)           --> skipped on input line 7.
+Package scrbase Info: No captions found for `ngerman'
+(scrbase)             --> skipped on input line 7.
+Class scrlttr2 Info: no date found for language `ngerman'
+(scrlttr2)           --> skipped on input line 7.
+Package scrbase Info: No captions found for `austrian'
+(scrbase)             --> skipped on input line 7.
+Class scrlttr2 Info: no date found for language `austrian'
+(scrlttr2)           --> skipped on input line 7.
+Package scrbase Info: No captions found for `naustrian'
+(scrbase)             --> skipped on input line 7.
+Class scrlttr2 Info: no date found for language `naustrian'
+(scrlttr2)           --> skipped on input line 7.
+Package scrbase Info: No captions found for `french'
+(scrbase)             --> skipped on input line 7.
+Class scrlttr2 Info: no date found for language `french'
+(scrlttr2)           --> skipped on input line 7.
+Package scrbase Info: No captions found for `italian'
+(scrbase)             --> skipped on input line 7.
+Class scrlttr2 Info: no date found for language `italian'
+(scrlttr2)           --> skipped on input line 7.
+Package scrbase Info: No captions found for `spanish'
+(scrbase)             --> skipped on input line 7.
+Class scrlttr2 Info: no date found for language `spanish'
+(scrlttr2)           --> skipped on input line 7.
+Package scrbase Info: No captions found for `croatian'
+(scrbase)             --> skipped on input line 7.
+Class scrlttr2 Info: no date found for language `croatian'
+(scrlttr2)           --> skipped on input line 7.
+Package scrbase Info: No captions found for `dutch'
+(scrbase)             --> skipped on input line 7.
+Class scrlttr2 Info: no date found for language `dutch'
+(scrlttr2)           --> skipped on input line 7.
+Package scrbase Info: No captions found for `finnish'
+(scrbase)             --> skipped on input line 7.
+Class scrlttr2 Info: no date found for language `finnish'
+(scrlttr2)           --> skipped on input line 7.
+Package scrbase Info: No captions found for `norsk'
+(scrbase)             --> skipped on input line 7.
+Class scrlttr2 Info: no date found for language `norsk'
+(scrlttr2)           --> skipped on input line 7.
+Package scrbase Info: No captions found for `swedish'
+(scrbase)             --> skipped on input line 7.
+Class scrlttr2 Info: no date found for language `swedish'
+(scrlttr2)           --> skipped on input line 7.
+
+! Undefined control sequence.
+\select@language ... \@empty }\languageshorthands 
+                                                  {none}\babel@beginsave \cs...
+l.7 \begin{document}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\select@language ...me \relax \babel@savevariable 
+                                                  \lefthyphenmin \babel@save...
+l.7 \begin{document}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\select@language ...hyphenmin \babel@savevariable 
+                                                  \righthyphenmin \expandaft...
+l.7 \begin{document}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Class scrlttr2 Info: used language is `english'.
+(scrlttr2)           Supported languages are `english', `UKenglish',
+(scrlttr2)           `british', `american', `USenglish',
+(scrlttr2)           `german', `ngerman', `austrian', `naustrian',
+(scrlttr2)           `dutch', `italian', `spanish',
+(scrlttr2)           `croatian', `finnish', `norsk' on input line 7.
+[1
+
+{C:/Users/Sebastián Torrente/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map
+}]
+Foldmarks: yes
+Head of first page
+Foot of first page
+Address (backaddress, addressee)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 10.
+Location field: empty
+Title: no
+Subject: no
+[1]
+("C:\Users\Sebastián Torrente\Desktop\Work\cv\MasterCV\letters_references\cove
+rletters\firstdraft.aux"
+! Undefined control sequence.
+\select@language ... \@empty }\languageshorthands 
+                                                  {none}\babel@beginsave \cs...
+l.2 \select@language{english}
+                             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\select@language ...me \relax \babel@savevariable 
+                                                  \lefthyphenmin \babel@save...
+l.2 \select@language{english}
+                             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\select@language ...hyphenmin \babel@savevariable 
+                                                  \righthyphenmin \expandaft...
+l.2 \select@language{english}
+                             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+) ) 
+Here is how much of TeX's memory you used:
+ 1159 strings out of 493921
+ 19309 string characters out of 3147240
+ 100825 words of memory out of 3000000
+ 4506 multiletter control sequences out of 15000+200000
+ 6676 words of font info for 24 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 35i,9n,35p,224b,197s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on firstdraft.pdf (2 pages, 16768 bytes).
+PDF statistics:
+ 13 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
