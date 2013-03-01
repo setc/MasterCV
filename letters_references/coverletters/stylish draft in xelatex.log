@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2013.2.8)  8 FEB 2013 15:24
+This is XeTeX, Version 3.1415926-2.4-0.9998 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2013.2.8)  1 MAR 2013 12:50
 entering extended mode
 **stylish*draft*in*xelatex.tex
 
@@ -752,6 +752,21 @@ Requested font "[lmroman8-regular]:mapping=tex-text" at 8.0pt
  -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/lm/lmroman8-regular.otf
 Requested font "[lmsans8-regular]:mapping=tex-text" at 8.0pt
  -> C:/Program Files/MiKTeX 2.9/fonts/opentype/public/lm/lmsans8-regular.otf
+
+Overfull \hbox (30.1916pt too wide) in paragraph at lines 94--94
+$[]$ 
+ []
+
+
+Overfull \hbox (30.1916pt too wide) in paragraph at lines 94--94
+$[]$ 
+ []
+
+
+Overfull \hbox (30.1916pt too wide) in paragraph at lines 94--94
+$[]$ 
+ []
+
 Location field: empty
 Title: no
 Subject: no
@@ -799,5 +814,4 @@ Here is how much of TeX's memory you used:
  912 hyphenation exceptions out of 8191
  58i,8n,45p,625b,211s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Error 1 (driver return code) generating output;
-file stylish*draft*in*xelatex.pdf may not be valid.
+Output written on stylish*draft*in*xelatex.pdf (1 page).
