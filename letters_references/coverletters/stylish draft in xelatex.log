@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2013.2.8)  1 MAR 2013 12:50
+This is XeTeX, Version 3.1415926-2.4-0.9998 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2013.2.8)  4 MAR 2013 21:26
 entering extended mode
 **stylish*draft*in*xelatex.tex
 
@@ -486,17 +486,6 @@ File: babel.def 2008/07/08 v3.8m Babel common definitions
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-
-Class scrlttr2 Warning: Deprecated usage of \firsthead.
-(scrlttr2)              You should use \setkomavar{firsthead}
-(scrlttr2)              instead of \firsthead on input line 59.
-
-
-Class scrlttr2 Warning: Deprecated usage of \firstfoot.
-(scrlttr2)              You should use \setkomavar{firstfoot}
-(scrlttr2)              instead of \firstfoot on input line 68.
-
-
 ("C:\Users\Sebastián Torrente\Desktop\Work\cv\MasterCV\letters_references\cove
 rletters\stylish draft in xelatex.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.

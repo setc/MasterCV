@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.7.27)  1 MAR 2013 15:52
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.7.27)  2 MAR 2013 15:14
 entering extended mode
 **MasterCV.tex
 ("C:\Users\Sebastián Torrente\Desktop\Work\cv\MasterCV\cv\MasterCV.tex"
@@ -541,11 +541,11 @@ Package rerunfilecheck Info: File `MasterCV.out' has not changed.
 (rerunfilecheck)             Checksum: 7ED5FC7C9C851FB2FBEF6B6F44764647;382.
  ) 
 Here is how much of TeX's memory you used:
- 8900 strings out of 493921
- 133590 string characters out of 3147240
- 263600 words of memory out of 3000000
+ 8894 strings out of 493921
+ 133528 string characters out of 3147240
+ 262600 words of memory out of 3000000
  11984 multiletter control sequences out of 15000+200000
- 69579 words of font info for 80 fonts, out of 3000000 for 9000
+ 69295 words of font info for 77 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  42i,13n,67p,774b,474s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
@@ -559,9 +559,9 @@ Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmro10.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/lm/lmro17.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/marvosy
 m/marvosym.pfb>
-Output written on MasterCV.pdf (2 pages, 255822 bytes).
+Output written on MasterCV.pdf (2 pages, 255855 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
+ 109 PDF objects out of 1000 (max. 8388607)
  11 named destinations out of 1000 (max. 500000)
  20033 words of extra memory for PDF output out of 20736 (max. 10000000)
 
