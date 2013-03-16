@@ -11,7 +11,7 @@ to be read. But, making a curriculum suited to each job offer may be a lot of
 work. Even more if you are aiming to job offers in various countries, each one
 of them with his own 'flavor' of curriculum.
 
-So I decided to create a megacurriculum to everything and the kitchen sink in 
+So I decided to create a megacurriculum with everything and the kitchen sink in 
 as a base to create curriculums ready to send. I just need to comment the parts I
 don't need (an maybe reorder some things) and voila, a new curriculum is born.
 Of course I can add and rewrite, but in the master version I can keep 
