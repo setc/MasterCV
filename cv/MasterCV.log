@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2013.2.8)  16 NOV 2013 12:47
+This is XeTeX, Version 3.1415926-2.4-0.9998 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2013.2.8)  16 NOV 2013 14:17
 entering extended mode
 **MasterCV.tex
 ("C:\Users\Sebastián Torrente\Desktop\Work\cv\MasterCV\cv\MasterCV.tex"
@@ -480,7 +480,7 @@ Requested font "ec-lmro17" at 17.28pt
  -> ec-lmro17
 Requested font "ec-lmr12" at 14.4pt
  -> ec-lmr12
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 138.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 142.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
@@ -492,7 +492,7 @@ Requested font "rm-lmr8" at 8.0pt
  -> rm-lmr8
 Requested font "rm-lmr6" at 6.0pt
  -> rm-lmr6
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 138.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 142.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
@@ -504,7 +504,7 @@ Requested font "lmmi8" at 8.0pt
  -> lmmi8
 Requested font "lmmi6" at 6.0pt
  -> lmmi6
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 138
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 142
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
@@ -516,20 +516,20 @@ Requested font "lmsy8" at 8.0pt
  -> lmsy8
 Requested font "lmsy6" at 6.0pt
  -> lmsy6
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 138
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 142
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 138.
+(Font)              <10.95> on input line 142.
 Requested font "lmex10" scaled 1000
  -> lmex10
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 138.
+(Font)              <8> on input line 142.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 138.
+(Font)              <6> on input line 142.
 Requested font "ec-lmbx10" at 10.95pt
  -> ec-lmbx10
 Requested font "ec-lmro10" at 10.95pt
@@ -557,25 +557,25 @@ Requested font "lmsy7" at 7.0pt
 Requested font "lmsy5" at 5.0pt
  -> lmsy5
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 168.
+(Font)              <10> on input line 167.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 168.
+(Font)              <7> on input line 167.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 168.
+(Font)              <5> on input line 167.
 Requested font "ec-lmr7" at 7.0pt
  -> ec-lmr7
 Requested font "ec-lmri10" at 10.0pt
  -> ec-lmri10
 Requested font "ec-lmri10" at 10.95pt
  -> ec-lmri10
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 327.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 332.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/sl' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 327.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 332.
 Requested font "ec-lmro12" at 14.4pt
  -> ec-lmro12
 Requested font "umvs" at 14.4pt
@@ -585,13 +585,13 @@ Requested font "umvs" at 14.4pt
 ]
 Requested font "ec-lmr8" at 8.0pt
  -> ec-lmr8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 455.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 461.
  [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 455.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 461.
 
 ("C:\Users\Sebastián Torrente\Desktop\Work\cv\MasterCV\cv\MasterCV.aux")
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 455.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 455.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 461.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 461.
  ) 
 Here is how much of TeX's memory you used:
  10363 strings out of 429035
@@ -600,6 +600,6 @@ Here is how much of TeX's memory you used:
  13509 multiletter control sequences out of 15000+200000
  70513 words of font info for 53 fonts, out of 3000000 for 9000
  912 hyphenation exceptions out of 8191
- 39i,13n,67p,774b,398s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 35i,13n,67p,774b,398s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on MasterCV.pdf (2 pages).
