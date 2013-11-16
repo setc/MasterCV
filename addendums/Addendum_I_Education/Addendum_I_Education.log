@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2013.2.8)  26 APR 2013 10:12
+This is XeTeX, Version 3.1415926-2.4-0.9998 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2013.2.8)  26 APR 2013 10:50
 entering extended mode
 **Addendum_I_Education.tex
 
@@ -609,10 +609,10 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 270.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 270.
  ) 
 Here is how much of TeX's memory you used:
- 10401 strings out of 429035
- 141910 string characters out of 3167910
+ 10400 strings out of 429035
+ 141888 string characters out of 3167910
  222148 words of memory out of 3000000
- 13544 multiletter control sequences out of 15000+200000
+ 13543 multiletter control sequences out of 15000+200000
  63577 words of font info for 52 fonts, out of 3000000 for 9000
  912 hyphenation exceptions out of 8191
  35i,13n,67p,786b,398s stack positions out of 5000i,500n,10000p,200000b,50000s
